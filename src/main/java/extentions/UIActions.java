@@ -27,7 +27,7 @@ public class UIActions extends CommonOps {
         wait.until(ExpectedConditions.visibilityOf(elem));
         elem.sendKeys(text);
     }
-    @Step("send keys text as human")
+    //@Step("send keys text as human")
     public static void updateTextHuman(WebElement elem,String text)
     {
         wait.until(ExpectedConditions.visibilityOf(elem));
